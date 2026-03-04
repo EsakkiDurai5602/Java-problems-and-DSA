@@ -57,8 +57,24 @@ public class LinkedList {
             temp=temp.next;
         }
         return false; 
+    }   
+
+    //reverse
+    void reverse(){
+        Node prev=null;
+        Node current=head;
+        Node next=null;
+
+        while(current!=null){
+            next=current.next;
+            current.next=prev;
+            prev=current;
+            current=next;
+        }
+        head=prev;
     }
 
+    //display
     void display(){
         Node temp = head;
         while(temp!=null){
@@ -77,6 +93,10 @@ public class LinkedList {
         list.insertIndex(3, 5);
 
         System.out.println(list.search(8));
+
+        list.display();
+
+        list.reverse();
 
         list.display();
     }
