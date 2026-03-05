@@ -3,21 +3,28 @@ package DataStructures;
 class Node {
     int data;
     Node next;
+    Node prev;
 
     Node(int data){
         this.data=data;
         this.next=null;
+        this.prev=null;
     }
     
 }
 
-public class LinkedList {
+public class DoubleLinkedList {
 
     Node head = null;
 
     void insertBegining(int data){
         Node newNode = new Node(data);
+        if(head==null){
+            head=newNode;
+            return;
+        }
         newNode.next=head;
+        head.prev=newNode;
         head=newNode;
     }
 
@@ -32,6 +39,7 @@ public class LinkedList {
             temp=temp.next;
         }
         temp.next=newNode;
+        newNode.prev=temp;
     }
 
     void insertIndex(int index,int data){
@@ -44,29 +52,55 @@ public class LinkedList {
             temp=temp.next;
         }
         Node newNode = new Node(data);
+        if(temp.next==null){
+            insertEnd(data);
+            return;
+        }
         newNode.next=temp.next;
         temp.next=newNode;
+        newNode.prev=temp;
+        temp.next.prev=newNode;
     }
 
     boolean search(int data){
         Node temp = head;
-        while(temp.next!=null){
+        while(temp!=null){
             if(temp.data==data){
                 return true;
             }
             temp=temp.next;
         }
         return false; 
-    }   
+    }  
 
     //delete by data
     void delete(int data){
-        Node temp=head;
-        while(temp.next.data!=data&&temp.next==null){
-            temp=temp.next;
-        }
-        temp.next=temp.next.next;
+    if(head==null) return;
+
+    if(head.data==data){
+        head=head.next;
+        if(head!=null)
+            head.prev=null;
+        return;
     }
+
+    Node temp=head;
+
+    while(temp!=null && temp.data!=data){
+        temp=temp.next;
+    }
+
+    if(temp==null){
+        System.out.println("Data not found");
+        return;
+    }
+
+    if(temp.next!=null)
+        temp.next.prev=temp.prev;
+
+    if(temp.prev!=null)
+        temp.prev.next=temp.next;
+}
 
     //delete by Index
     void deleteIndex(int index){
@@ -83,47 +117,38 @@ public class LinkedList {
             }
         }
         temp.next=temp.next.next;
-    }
-
-    //reverse
-    void reverse(){
-        Node prev=null;
-        Node current=head;
-        Node next=null;
-
-        while(current!=null){
-            next=current.next;
-            current.next=prev;
-            prev=current;
-            current=next;
-        }
-        head=prev;
+        temp.next.prev=temp;
     }
 
     //display
     void display(){
         Node temp = head;
+        System.out.print("null<->");
         while(temp!=null){
-            System.out.print(temp.data+"->");
+
+            System.out.print(temp.data+"<->");
             temp=temp.next;
         }
         System.out.println("null");
     }
 
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
+        DoubleLinkedList list = new DoubleLinkedList();
         list.insertBegining(3);
         list.insertBegining(2);
         list.insertBegining(1);
+        list.insertBegining(6);
         list.insertEnd(4);
         list.insertIndex(3, 5);
 
-        System.out.println(list.search(8));
+        System.out.println(list.search(5));
 
         list.display();
 
-        list.deleteIndex(5);
+        list.delete(6);
+        list.display();
 
+        list.deleteIndex(2);
         list.display();
     }
 }

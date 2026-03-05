@@ -1,4 +1,4 @@
-package Sorting;
+package Algorithms.Sorting;
 public class quickSort_divide_conquer {
 
     private static void swap(int[] arr, int i, int j) {

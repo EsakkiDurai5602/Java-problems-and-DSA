@@ -1,4 +1,4 @@
-package Sorting;
+package Algorithms.Sorting;
 public class InsertionSort {
     public static void main(String[] args){
         int[] arr={7,4,8,2,1};

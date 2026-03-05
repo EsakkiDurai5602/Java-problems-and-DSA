@@ -1,4 +1,4 @@
-package Searching;
+package Algorithms.Searching;
 public class rec_binary_search {
 
     public static int binarysearch(int[] arr,int left,int right,int key){

@@ -1,4 +1,4 @@
-package Searching;
+package Algorithms.Searching;
 public class iterative_binary_search {
 
     public static int iterbinarysearch(int[] arr,int key){

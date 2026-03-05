@@ -1,4 +1,4 @@
-package Sorting;
+package Algorithms.Sorting;
 public class quickSortMedianOfThree {
 
     public static void swap(int[] arr,int i,int j){

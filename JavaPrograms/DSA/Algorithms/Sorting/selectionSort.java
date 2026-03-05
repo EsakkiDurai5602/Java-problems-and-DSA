@@ -1,4 +1,4 @@
-package Sorting;
+package Algorithms.Sorting;
 public class selectionSort {
     public static void main(String[] args) {
         int[] arr = {4, 2, 5, 7, 1, 8};
