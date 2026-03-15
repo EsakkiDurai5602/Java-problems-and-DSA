@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class gcd_lcm {
+public class gcd_lcm{
 
     
         static int gcd(int x, int y){

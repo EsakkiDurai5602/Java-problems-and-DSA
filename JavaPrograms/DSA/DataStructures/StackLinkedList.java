@@ -1,6 +1,7 @@
 package DataStructures;
 
-class Node{
+public class StackLinkedList {
+    class Node{
     int data;
     Node next;
 
@@ -9,8 +10,6 @@ class Node{
         this.next=null;
     }
 }
-
-public class StackLinkedList {
     Node top=null;
     void push(int data){
         Node newNode = new Node(data);

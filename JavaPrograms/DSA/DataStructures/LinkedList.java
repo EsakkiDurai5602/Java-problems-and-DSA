@@ -1,6 +1,7 @@
 package DataStructures;
 
-class Node {
+public class LinkedList {
+    class Node {
     int data;
     Node next;
 
@@ -11,7 +12,6 @@ class Node {
     
 }
 
-public class LinkedList {
 
     Node head = null;
 
