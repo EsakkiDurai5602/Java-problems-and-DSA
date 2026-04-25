@@ -39,5 +39,6 @@ public class binary_search_2d {
         int target = sc.nextInt();
 
         System.out.println(Arrays.toString(search(arr,target)));
+        sc.close();
     }
 }
