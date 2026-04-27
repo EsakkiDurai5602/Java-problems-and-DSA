@@ -1,17 +1,18 @@
-import java.util.Scanner;
+package com.kunal;
 
-public class reverse
-{
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int res=0;
-		int digit=0;
-		while (n>=0){
-		    digit = n % 10;
-		    res = res*10+digit;
-		}
-		System.out.println(res);
-		sc.close();
-	}
+public class Reverse {
+    public static void main(String[] args) {
+        int num = 123456;
+
+        int ans = 0;
+
+        while (num > 0) {
+            int rem = num % 10;
+            num /= 10;
+
+            ans = ans * 10 + rem;
+        }
+
+        System.out.println(ans);
+    }
 }
