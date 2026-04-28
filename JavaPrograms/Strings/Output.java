@@ -1,4 +1,4 @@
-package com.kunal;
+package Strings;
 
 import java.util.Arrays;
 
@@ -15,3 +15,4 @@ public class Output {
 //        System.out.println(name);
     }
 }
+

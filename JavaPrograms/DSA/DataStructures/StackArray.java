@@ -1,5 +1,6 @@
 package DataStructures;
 
+
 class StackArray {
     int size;
     int [] stack;

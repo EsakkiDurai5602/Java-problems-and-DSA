@@ -1,6 +1,7 @@
-package com.kunal.packages.a;
+package oop_java.packages.a;
 
-import static com.kunal.packages.b.Message.message;
+
+import static oop_java.packages.b.Message.message;
 
 public class Greeting {
     public static void main(String[] args) {
@@ -8,3 +9,4 @@ public class Greeting {
         message();
     }
 }
+

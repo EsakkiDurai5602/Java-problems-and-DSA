@@ -1,4 +1,5 @@
-package com.kunal.easy;
+package Recursion.easy;
+
 
 public class DigitProduct {
     public static void main(String[] args) {
@@ -13,3 +14,4 @@ public class DigitProduct {
         return (n%10) * prod(n/10);
     }
 }
+

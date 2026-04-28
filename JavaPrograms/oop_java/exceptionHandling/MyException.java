@@ -1,4 +1,5 @@
-package com.kunal.exceptionHandling;
+package oop_java.exceptionHandling;
+
 
 public class MyException extends Exception{
 

@@ -1,4 +1,5 @@
-package com.kunal.interfaces.nested;
+package oop_java.interfaces.nested;
+
 
 public class Main {
     public static void main(String[] args) {

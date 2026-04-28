@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 
 public class OrderAgnosticBS {
     public static void main(String[] args) {
@@ -42,3 +43,4 @@ public class OrderAgnosticBS {
         return -1;
     }
 }
+

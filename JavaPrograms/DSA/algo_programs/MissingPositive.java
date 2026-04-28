@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 // https://leetcode.com/problems/first-missing-positive/
 public class MissingPositive {
 
@@ -30,3 +31,4 @@ public class MissingPositive {
         arr[second] = temp;
     }
 }
+

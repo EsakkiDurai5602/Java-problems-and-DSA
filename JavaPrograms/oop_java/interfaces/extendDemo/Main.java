@@ -1,4 +1,5 @@
-package com.kunal.interfaces.extendDemo;
+package oop_java.interfaces.extendDemo;
+
 
 public class Main implements B{
     @Override

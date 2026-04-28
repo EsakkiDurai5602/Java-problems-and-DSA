@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 // https://leetcode.com/problems/set-mismatch/
 public class SetMismatch {
     public int[] findErrorNums(int[] arr) {
@@ -27,3 +28,4 @@ public class SetMismatch {
         arr[second] = temp;
     }
 }
+

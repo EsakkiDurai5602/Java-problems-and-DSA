@@ -1,4 +1,4 @@
-package com.kunal.intro;
+package Recursion.intro;
 
 public class NumbersExample {
     public static void main(String[] args) {
@@ -33,3 +33,4 @@ public class NumbersExample {
         System.out.println(n);
     }
 }
+

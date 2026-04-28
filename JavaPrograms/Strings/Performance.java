@@ -1,4 +1,4 @@
-package com.kunal;
+package Strings;
 
 public class Performance {
     public static void main(String[] args) {
@@ -11,3 +11,4 @@ public class Performance {
         System.out.println(series);
     }
 }
+

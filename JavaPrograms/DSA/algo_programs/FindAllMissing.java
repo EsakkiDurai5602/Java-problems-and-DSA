@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 
 import java.util.ArrayList;
 import java.util.List;

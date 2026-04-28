@@ -1,4 +1,5 @@
-package com.kunal.easy;
+package Recursion.easy;
+
 
 public class Sum {
     public static void main(String[] args) {
@@ -14,3 +15,4 @@ public class Sum {
         return n + sum(n-1);
     }
 }
+

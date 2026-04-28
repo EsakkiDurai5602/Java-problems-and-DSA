@@ -1,4 +1,5 @@
-package com.kunal;
+package DataStructures;
+
 
 public class MergeSort {
 
@@ -43,5 +44,6 @@ public class MergeSort {
         return mid;
     }
 }
+
 
 

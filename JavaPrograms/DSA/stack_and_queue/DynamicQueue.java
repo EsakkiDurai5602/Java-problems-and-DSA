@@ -1,4 +1,5 @@
-package com.kunal;
+package stack_and_queue;
+
 
 public class DynamicQueue extends CircularQueue{
     public DynamicQueue() {
@@ -31,3 +32,4 @@ public class DynamicQueue extends CircularQueue{
         return super.insert(item);
     }
 }
+

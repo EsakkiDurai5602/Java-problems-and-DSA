@@ -1,4 +1,5 @@
-package com.kunal.easy;
+package Recursion.easy;
+
 
 public class DigitSum {
     public static void main(String[] args) {
@@ -13,3 +14,4 @@ public class DigitSum {
         return (n % 10) + sum(n / 10);
     }
 }
+

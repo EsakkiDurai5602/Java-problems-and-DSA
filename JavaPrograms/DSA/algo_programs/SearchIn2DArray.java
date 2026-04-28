@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 
 import java.util.Arrays;
 
@@ -42,3 +43,4 @@ public class SearchIn2DArray {
         return max;
     }
 }
+

@@ -1,4 +1,4 @@
-package com.kunal;
+package Methods;
 
 import java.util.Scanner;
 
@@ -14,6 +14,7 @@ public class Questions {
                 System.out.print(i + " ");
             }
         }
+        in.close();
     }
 
     // print all the 3 digits armstrong numbers
@@ -42,5 +43,6 @@ public class Questions {
             c++;
         }
         return c * c > n;
+        
     }
 }

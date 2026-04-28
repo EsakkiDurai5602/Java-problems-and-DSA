@@ -1,5 +1,6 @@
 package DataStructures;
 
+
 public class LinkedList {
     class Node {
     int data;
@@ -127,3 +128,4 @@ public class LinkedList {
         list.display();
     }
 }
+

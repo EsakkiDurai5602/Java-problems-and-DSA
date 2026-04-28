@@ -1,4 +1,5 @@
 package Algorithms.Searching;
+
 public class binary_search {
 
     public static int binarysearch(int[] arr,int key){
@@ -28,3 +29,4 @@ public class binary_search {
         }
     }
 }
+

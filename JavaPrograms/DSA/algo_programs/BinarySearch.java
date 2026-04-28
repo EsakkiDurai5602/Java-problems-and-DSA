@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 
 public class BinarySearch {
 
@@ -32,3 +33,4 @@ public class BinarySearch {
         return -1;
     }
 }
+

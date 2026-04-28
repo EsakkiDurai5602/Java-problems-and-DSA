@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 // https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/
 public class RBS {
     public static void main(String[] args) {
@@ -107,3 +108,4 @@ public class RBS {
     }
 
 }
+

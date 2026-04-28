@@ -1,5 +1,6 @@
 package Algorithms.Sorting;
 
+
 class KadansAlgorithm {
     public static int KadansAlgo(int[] nums) {
         int currSum=0;
@@ -23,4 +24,5 @@ class KadansAlgorithm {
         System.out.println(KadansAlgo(nums));
     }
 }
+
 

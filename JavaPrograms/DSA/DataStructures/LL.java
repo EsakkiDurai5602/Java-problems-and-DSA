@@ -1,4 +1,5 @@
-package com.kunal;
+package DataStructures;
+
 
 public class LL {
 
@@ -298,3 +299,4 @@ public class LL {
 
 
 }
+

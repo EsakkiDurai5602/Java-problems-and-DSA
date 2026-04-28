@@ -1,4 +1,5 @@
-package com.kunal.backtracking;
+package Recursion.backtracking;
+
 
 public class NQueens {
     public static void main(String[] args) {
@@ -69,3 +70,4 @@ public class NQueens {
         }
     }
 }
+

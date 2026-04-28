@@ -1,6 +1,7 @@
-package com.kunal.singleton;
+package oop_java.singleton;
 
-import com.kunal.access.A;
+
+import oop_java.access.A;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,3 +18,4 @@ public class Main {
 //        int n = a.num;
     }
 }
+

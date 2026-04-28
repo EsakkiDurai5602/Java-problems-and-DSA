@@ -1,4 +1,5 @@
-package com.kunal.backtracking;
+package Recursion.backtracking;
+
 
 public class SudokuSolver {
     public static void main(String[] args) {
@@ -107,3 +108,4 @@ public class SudokuSolver {
         return true;
     }
 }
+

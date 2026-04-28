@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 // https://leetcode.com/problems/split-array-largest-sum/
 public class SplitArray {
     public static void main(String[] args) {
@@ -43,3 +44,4 @@ public class SplitArray {
         return end; // here start == end
     }
 }
+

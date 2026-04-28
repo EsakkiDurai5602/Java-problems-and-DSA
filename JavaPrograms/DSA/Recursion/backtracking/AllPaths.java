@@ -1,4 +1,5 @@
-package com.kunal.backtracking;
+package Recursion.backtracking;
+
 
 import java.util.Arrays;
 
@@ -89,3 +90,4 @@ public class AllPaths {
         path[r][c] = 0;
     }
 }
+

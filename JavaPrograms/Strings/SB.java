@@ -1,4 +1,4 @@
-package com.kunal;
+package Strings;
 
 public class SB {
     public static void main(String[] args) {
@@ -15,3 +15,4 @@ public class SB {
         System.out.println(builder);
     }
 }
+

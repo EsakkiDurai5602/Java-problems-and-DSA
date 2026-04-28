@@ -1,6 +1,8 @@
+package Arrays;
+
 import java.util.Arrays;
 
-class ArrayManipulation {
+public class ArrayManipulation {
     public static void main(String[] args) {
 
         //Declaration & Initialization

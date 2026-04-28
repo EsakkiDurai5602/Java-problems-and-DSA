@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 // https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
 public class EvenDigits {
     public static void main(String[] args) {
@@ -58,3 +59,4 @@ public class EvenDigits {
 
 
 }
+

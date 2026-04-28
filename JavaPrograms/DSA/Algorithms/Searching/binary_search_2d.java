@@ -1,5 +1,6 @@
 package Algorithms.Searching;
 
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -42,3 +43,4 @@ public class binary_search_2d {
         sc.close();
     }
 }
+

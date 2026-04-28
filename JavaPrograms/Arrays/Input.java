@@ -1,4 +1,4 @@
-package com.kunal;
+package Arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -46,5 +46,7 @@ public class Input {
         str[1] = "kunal";
 
         System.out.println(Arrays.toString(str));
+        in.close();
     }
 }
+

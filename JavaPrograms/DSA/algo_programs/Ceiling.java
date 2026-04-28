@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 
 public class Ceiling {
 
@@ -36,3 +37,4 @@ public class Ceiling {
         return start;
     }
 }
+

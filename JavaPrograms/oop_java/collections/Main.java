@@ -1,4 +1,5 @@
-package com.kunal.collections;
+package oop_java.collections;
+
 
 import java.util.*;
 

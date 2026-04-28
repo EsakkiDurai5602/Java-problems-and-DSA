@@ -1,4 +1,5 @@
 package Algorithms.Searching;
+
 import java.util.Scanner;
 
 public class linear_search {
@@ -30,3 +31,4 @@ public class linear_search {
         sc.close();
     }
 }
+

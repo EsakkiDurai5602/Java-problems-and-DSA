@@ -1,4 +1,4 @@
-package com.kunal;
+package Arrays;
 
 public class ColNoFixed {
     public static void main(String[] args) {
@@ -16,3 +16,4 @@ public class ColNoFixed {
         }
     }
 }
+

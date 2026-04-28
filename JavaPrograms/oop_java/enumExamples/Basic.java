@@ -1,4 +1,5 @@
-package com.kunal.enumExamples;
+package oop_java.enumExamples;
+
 
 public class Basic {
     enum Week implements A{

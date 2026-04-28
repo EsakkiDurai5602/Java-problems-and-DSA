@@ -1,4 +1,5 @@
-package com.kunal.arrays;
+package Recursion.arrays;
+
 
 public class RBS {
     public static void main(String[] args) {
@@ -32,3 +33,4 @@ public class RBS {
     }
 
 }
+

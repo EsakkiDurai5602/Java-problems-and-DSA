@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 // https://leetcode.com/problems/richest-customer-wealth/
 public class MaxWealth {
     public static void main(String[] args) {
@@ -23,3 +24,4 @@ public class MaxWealth {
         return ans;
     }
 }
+

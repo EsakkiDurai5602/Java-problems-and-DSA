@@ -1,4 +1,5 @@
-package com.kunal.interfaces.extendDemo2;
+package oop_java.interfaces.extendDemo2;
+
 
 public interface A {
     // static interface methods should always have a body

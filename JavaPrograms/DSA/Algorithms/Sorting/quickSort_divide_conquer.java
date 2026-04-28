@@ -1,4 +1,5 @@
 package Algorithms.Sorting;
+
 public class quickSort_divide_conquer {
 
     private static void swap(int[] arr, int i, int j) {
@@ -39,8 +40,10 @@ public class quickSort_divide_conquer {
         quickSort(arr, 0, arr.length - 1);
 
         System.out.println("Sorted array:");
-        for (int i=0;i<arr.length-1;i++) {
-            System.out.print(" ");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
         }
+        System.out.println();
     }
 }
+

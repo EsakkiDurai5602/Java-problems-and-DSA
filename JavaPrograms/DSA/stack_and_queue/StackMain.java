@@ -1,4 +1,4 @@
-package com.kunal;
+package stack_and_queue;
 
 public class StackMain {
     public static void main(String[] args) throws StackException {
@@ -20,3 +20,5 @@ public class StackMain {
         System.out.println(stack.pop());
     }
 }
+
+

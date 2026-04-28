@@ -1,4 +1,4 @@
-package com.kunal.bitwise;
+package BitManupulation_and_Math.bitwise;
 // https://leetcode.com/problems/flipping-an-image
 class FlipImage {
     public int[][] flipAndInvertImage(int[][] image) {

@@ -1,4 +1,5 @@
-package com.kunal.staticExample;
+package oop_java.staticExample;
+
 
 import java.util.Arrays;
 

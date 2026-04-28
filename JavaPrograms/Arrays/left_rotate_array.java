@@ -1,9 +1,11 @@
+package Arrays;
+
 import java.util.Scanner;
 
 public class left_rotate_array {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter thr size of the Array ");
+        System.out.println("Enter the size of the Array ");
         int n = sc.nextInt();
         int[] arr = new int[n];
         for(int i=0;i<n;i++){

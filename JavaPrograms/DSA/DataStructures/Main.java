@@ -1,4 +1,5 @@
-package com.kunal;
+package DataStructures;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -39,3 +40,4 @@ public class Main {
 //        list.display();
     }
 }
+

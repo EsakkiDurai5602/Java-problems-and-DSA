@@ -1,4 +1,5 @@
-package com.kunal;
+package DataStructures;
+
 
 import javax.swing.*;
 
@@ -363,3 +364,4 @@ class ListNode {
         next = null;
     }
 }
+

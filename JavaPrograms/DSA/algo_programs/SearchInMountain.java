@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 
 public class SearchInMountain {
     public static void main(String[] args) {
@@ -69,3 +70,4 @@ public class SearchInMountain {
         return -1;
     }
 }
+

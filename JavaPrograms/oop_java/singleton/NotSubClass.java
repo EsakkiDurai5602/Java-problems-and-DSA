@@ -1,6 +1,7 @@
-package com.kunal.singleton;
+package oop_java.singleton;
 
-import com.kunal.access.A;
+
+import oop_java.access.A;
 
 public class NotSubClass{
 
@@ -10,3 +11,4 @@ public class NotSubClass{
 //        int n = obj.num;
     }
 }
+

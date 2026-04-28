@@ -1,5 +1,6 @@
 package DataStructures;
 
+
 public class StackLinkedList {
     class Node{
     int data;
@@ -56,4 +57,5 @@ public class StackLinkedList {
         System.out.println(stacklist.isEmpty());
     }
 }
+
 

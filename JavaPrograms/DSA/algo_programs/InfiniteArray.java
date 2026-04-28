@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 // https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/
 public class InfiniteArray {
     public static void main(String[] args) {
@@ -42,3 +43,4 @@ public class InfiniteArray {
         return -1;
     }
 }
+

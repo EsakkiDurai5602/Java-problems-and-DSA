@@ -1,4 +1,5 @@
-package com.kunal.properties.polymorphism;
+package oop_java.properties.polymorphism;
+
 
 public class Triangle extends Shapes{
     void area() {

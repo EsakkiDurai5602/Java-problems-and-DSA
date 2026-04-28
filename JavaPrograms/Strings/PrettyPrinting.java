@@ -1,4 +1,4 @@
-package com.kunal;
+package Strings;
 
 public class PrettyPrinting {
     public static void main(String[] args) {
@@ -10,3 +10,4 @@ public class PrettyPrinting {
         System.out.printf("Hello my name is %s and I am %s", "Kunal", "Cool");
     }
 }
+

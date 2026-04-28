@@ -1,3 +1,5 @@
+package programs;
+
 import java.util.Scanner;
 public class marks_check{
 	public static void main(String[] args) {

@@ -1,4 +1,5 @@
-package com.kunal.arrays;
+package Recursion.arrays;
+
 
 public class Sorted {
     public static void main(String[] args) {
@@ -15,3 +16,4 @@ public class Sorted {
         return arr[index] < arr[index + 1] && sorted(arr, index + 1);
     }
 }
+

@@ -1,5 +1,6 @@
 package Algorithms.Sorting;
 
+
 import java.util.*;
 
 public class inverseNum {

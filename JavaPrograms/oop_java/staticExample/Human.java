@@ -1,4 +1,5 @@
-package com.kunal.staticExample;
+package oop_java.staticExample;
+
 
 public class Human {
     int age;

@@ -1,4 +1,5 @@
-package com.kunal.sorting;
+package Recursion.sorting;
+
 
 import java.util.Arrays;
 
@@ -110,3 +111,5 @@ public class MergeSort {
     }
 
 }
+
+

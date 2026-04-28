@@ -1,4 +1,5 @@
-package com.kunal;
+package programs;
+
 
 import java.util.Scanner;
 

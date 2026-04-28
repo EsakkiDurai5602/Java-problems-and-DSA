@@ -1,4 +1,4 @@
-package com.kunal;
+package Arrays;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -21,5 +21,7 @@ public class MultiAL {
         }
 
         System.out.println(list);
+        in.close();
     }
 }
+

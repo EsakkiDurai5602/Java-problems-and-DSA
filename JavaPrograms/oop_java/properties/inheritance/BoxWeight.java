@@ -1,4 +1,5 @@
-package com.kunal.properties.inheritance;
+package oop_java.properties.inheritance;
+
 
 import java.util.ArrayList;
 

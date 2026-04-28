@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 // https://leetcode.com/problems/find-the-duplicate-number/
 public class FindDuplicate {
     public int findDuplicate(int[] arr) {
@@ -25,3 +26,4 @@ public class FindDuplicate {
         arr[second] = temp;
     }
 }
+

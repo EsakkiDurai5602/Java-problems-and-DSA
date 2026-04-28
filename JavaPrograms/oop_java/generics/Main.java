@@ -1,4 +1,5 @@
-package com.kunal.generics;
+package oop_java.generics;
+
 
 public class Main implements GenericInterface<Integer>{
 

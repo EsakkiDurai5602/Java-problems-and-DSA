@@ -1,4 +1,5 @@
-package com.kunal;
+package DataStructures;
+
 
 public class DLL {
 
@@ -96,3 +97,4 @@ public class DLL {
         }
     }
 }
+

@@ -1,4 +1,5 @@
-package com.kunal.properties.polymorphism;
+package oop_java.properties.polymorphism;
+
 
 public class Square extends Shapes{
     void area() {

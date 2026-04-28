@@ -1,4 +1,5 @@
-package com.kunal.easy;
+package Recursion.easy;
+
 
 public class CountZeros {
     public static void main(String[] args) {
@@ -22,3 +23,4 @@ public class CountZeros {
         return helper(n/10, c);
     }
 }
+

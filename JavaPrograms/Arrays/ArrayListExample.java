@@ -1,4 +1,4 @@
-package com.kunal;
+package Arrays;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -36,7 +36,8 @@ public class ArrayListExample {
 
         System.out.println(list);
 
-
+        in.close();
 
     }
 }
+

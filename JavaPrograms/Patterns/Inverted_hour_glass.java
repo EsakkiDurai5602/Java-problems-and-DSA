@@ -1,3 +1,5 @@
+package Patterns;
+
 import java.util.Scanner;
 
 public class Inverted_hour_glass {

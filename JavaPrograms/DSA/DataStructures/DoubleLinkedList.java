@@ -1,5 +1,6 @@
 package DataStructures;
 
+
 class Node {
     int data;
     Node next;
@@ -152,3 +153,4 @@ public class DoubleLinkedList {
         list.display();
     }
 }
+

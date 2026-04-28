@@ -1,4 +1,4 @@
-package com.kunal;
+package Arrays;
 
 public class Max {
     public static void main(String[] args) {
@@ -39,3 +39,4 @@ public class Max {
         return maxVal;
     }
 }
+

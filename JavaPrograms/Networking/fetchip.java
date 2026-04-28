@@ -1,3 +1,5 @@
+package Networking;
+
 import java.net.*;
 
 public class fetchip {

@@ -1,4 +1,5 @@
-package com.kunal.backtracking;
+package Recursion.backtracking;
+
 
 public class NKnights {
     public static void main(String[] args) {
@@ -81,3 +82,4 @@ public class NKnights {
         }
     }
 }
+

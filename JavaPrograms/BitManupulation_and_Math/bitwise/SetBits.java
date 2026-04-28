@@ -1,4 +1,4 @@
-package com.kunal.bitwise;
+package BitManupulation_and_Math.bitwise;
 
 public class SetBits {
     public static void main(String[] args) {

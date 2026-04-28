@@ -1,4 +1,4 @@
-package com.kunal;
+package Arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -47,5 +47,7 @@ public class MultiDimension {
         for(int[] a : arr) {
             System.out.println(Arrays.toString(a));
         }
+        in.close();
     }
 }
+

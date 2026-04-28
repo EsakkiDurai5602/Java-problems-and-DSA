@@ -1,4 +1,4 @@
-package com.kunal;
+package Methods;
 
 import java.util.Scanner;
 
@@ -87,6 +87,6 @@ public class Main {
         num2 = in.nextInt();
         sum = num1 + num2;
         System.out.println("The sum = " + sum);
-
+        in.close();
     }
 }

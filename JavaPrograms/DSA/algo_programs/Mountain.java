@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 
 public class Mountain {
     public static void main(String[] args) {
@@ -30,3 +31,4 @@ public class Mountain {
         return start; // or return end as both are =
     }
 }
+

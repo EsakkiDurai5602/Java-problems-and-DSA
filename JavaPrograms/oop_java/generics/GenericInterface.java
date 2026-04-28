@@ -1,4 +1,5 @@
-package com.kunal.generics;
+package oop_java.generics;
+
 
 public interface GenericInterface<T> {
     void display(T value);

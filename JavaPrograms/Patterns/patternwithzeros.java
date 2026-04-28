@@ -1,3 +1,5 @@
+package Patterns;
+
 import java.util.*;
 public class patternwithzeros {
     public static void main(String args[]) {

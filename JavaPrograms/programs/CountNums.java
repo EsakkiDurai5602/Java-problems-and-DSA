@@ -1,4 +1,5 @@
-package com.kunal;
+package programs;
+
 
 public class CountNums {
     public static void main(String[] args) {

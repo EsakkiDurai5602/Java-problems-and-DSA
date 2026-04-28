@@ -1,3 +1,5 @@
+package Arrays;
+
 public class sumOfElements{
     public static void main(String[] args) {
         int[] arr = {5,7,2,4,9};

@@ -1,4 +1,5 @@
-package com.kunal.strings;
+package Recursion.strings;
+
 
 public class Ascii {
     public static void main(String[] args) {
@@ -6,3 +7,5 @@ public class Ascii {
         System.out.println((char)(ch + 1));
     }
 }
+
+

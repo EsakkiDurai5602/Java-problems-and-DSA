@@ -1,4 +1,5 @@
-package com.kunal;
+package stack_and_queue;
+
 
 import java.util.*;
 
@@ -36,3 +37,5 @@ public class InBuiltExamples {
         // etc etc
     }
 }
+
+

@@ -1,3 +1,5 @@
+package Patterns;
+
 import java.util.Scanner;
 
 public class pattern_with_zeros_and_ones {

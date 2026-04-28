@@ -1,4 +1,5 @@
-package com.kunal;
+package stack_and_queue;
+
 
 public class QueueMain {
     public static void main(String[] args) throws Exception {
@@ -21,3 +22,5 @@ public class QueueMain {
 
     }
 }
+
+

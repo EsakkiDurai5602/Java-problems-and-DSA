@@ -1,4 +1,5 @@
-package com.kunal.maths;
+package BitManupulation_and_Math.maths;
+
 
 public class GCD_LCM {
     public static void main(String[] args) {

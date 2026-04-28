@@ -1,4 +1,5 @@
 package DataStructures;
+
 public class DynamicArray {
     int arr[];
     int size;
@@ -112,3 +113,4 @@ public class DynamicArray {
 
     }
 }
+

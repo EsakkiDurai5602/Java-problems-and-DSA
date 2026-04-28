@@ -1,4 +1,5 @@
-package com.kunal;
+package Methods;
+
 
 import java.util.Arrays;
 

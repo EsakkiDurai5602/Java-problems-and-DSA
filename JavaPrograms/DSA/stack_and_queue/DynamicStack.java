@@ -1,4 +1,5 @@
-package com.kunal;
+package stack_and_queue;
+
 
 public class DynamicStack extends CustomStack{
 
@@ -30,3 +31,5 @@ public class DynamicStack extends CustomStack{
         return super.push(item);
     }
 }
+
+

@@ -1,4 +1,5 @@
-package com.kunal.staticExample;
+package oop_java.staticExample;
+
 
 // this is a demo to show initialisation of static variables
 public class StaticBlock {

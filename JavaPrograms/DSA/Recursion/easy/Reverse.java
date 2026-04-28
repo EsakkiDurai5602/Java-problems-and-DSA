@@ -1,4 +1,5 @@
-package com.kunal.easy;
+package Recursion.easy;
+
 
 public class Reverse {
     static int sum = 0;
@@ -32,3 +33,4 @@ public class Reverse {
 
 
 }
+

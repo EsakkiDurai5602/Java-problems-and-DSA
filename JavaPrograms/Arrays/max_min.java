@@ -1,3 +1,5 @@
+package Arrays;
+
 public class max_min{
     public static void main(String[] args) {
         int[] arr = {6,2,8,4,9,7,12,1};

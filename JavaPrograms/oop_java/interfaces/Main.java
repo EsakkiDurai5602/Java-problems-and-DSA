@@ -1,4 +1,5 @@
-package com.kunal.interfaces;
+package oop_java.interfaces;
+
 
 public class Main {
     public static void main(String[] args) {

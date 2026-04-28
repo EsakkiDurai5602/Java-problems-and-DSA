@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 
 public class SearchInRange {
     public static void main(String[] args) {
@@ -25,3 +26,4 @@ public class SearchInRange {
         return -1;
     }
 }
+

@@ -1,5 +1,6 @@
 package DataStructures;
 
+
 public class queueArray {
     int size;
     int [] queue;
@@ -54,3 +55,4 @@ public class queueArray {
         q.display();
     }
 }
+

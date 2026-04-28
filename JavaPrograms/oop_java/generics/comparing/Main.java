@@ -1,4 +1,5 @@
-package com.kunal.generics.comparing;
+package oop_java.generics.comparing;
+
 
 import java.util.Arrays;
 import java.util.Comparator;

@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 // https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 public class SmallestLetter {
 
@@ -25,3 +26,4 @@ public class SmallestLetter {
         return letters[start % letters.length];
     }
 }
+

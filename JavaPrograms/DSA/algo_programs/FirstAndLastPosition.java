@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 
 public class FirstAndLastPosition {
     public static void main(String[] args) {
@@ -43,3 +44,4 @@ public class FirstAndLastPosition {
         return ans;
     }
 }
+

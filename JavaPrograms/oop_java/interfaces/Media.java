@@ -1,4 +1,5 @@
-package com.kunal.interfaces;
+package oop_java.interfaces;
+
 
 public interface Media {
     void start();

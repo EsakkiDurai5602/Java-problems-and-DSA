@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 
 public class Floor {
 
@@ -31,3 +32,4 @@ public class Floor {
         return end;
     }
 }
+

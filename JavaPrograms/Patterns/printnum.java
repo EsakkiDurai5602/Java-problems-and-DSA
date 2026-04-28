@@ -1,3 +1,5 @@
+package Patterns;
+
 public class printnum {
     public static void main(String[] args) {
         int i=2;

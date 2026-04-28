@@ -1,4 +1,5 @@
-package com.kunal.easy;
+package Recursion.easy;
+
 
 public class Palindrome {
     static int rev(int n) {
@@ -26,3 +27,4 @@ public class Palindrome {
 
 
 }
+

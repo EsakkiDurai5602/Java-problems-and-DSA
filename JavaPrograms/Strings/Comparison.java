@@ -1,4 +1,4 @@
-package com.kunal;
+package Strings;
 
 public class Comparison {
     public static void main(String[] args) {
@@ -18,3 +18,4 @@ public class Comparison {
 
     }
 }
+

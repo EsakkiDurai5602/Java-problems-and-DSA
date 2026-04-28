@@ -1,4 +1,5 @@
-package com.kunal.generics.comparing;
+package oop_java.generics.comparing;
+
 
 public class Student implements Comparable<Student>{
     int rollno;

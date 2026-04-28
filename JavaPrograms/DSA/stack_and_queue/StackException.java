@@ -1,4 +1,5 @@
-package com.kunal;
+package stack_and_queue;
+
 
 public class StackException extends Exception{
 
@@ -6,3 +7,5 @@ public class StackException extends Exception{
         super(message);
     }
 }
+
+

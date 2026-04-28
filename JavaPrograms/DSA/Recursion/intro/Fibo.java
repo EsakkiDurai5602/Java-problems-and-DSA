@@ -1,4 +1,5 @@
-package com.kunal.intro;
+package Recursion.intro;
+
 
 public class Fibo {
     public static void main(String[] args) {
@@ -14,3 +15,4 @@ public class Fibo {
         return fibo(n-1) + fibo(n-2);
     }
 }
+

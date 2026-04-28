@@ -1,3 +1,5 @@
+package Numbers;
+
 import java.util.*;
 public class Boston_number {
     public static void main(String args[]) {

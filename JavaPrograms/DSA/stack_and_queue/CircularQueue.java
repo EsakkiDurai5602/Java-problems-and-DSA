@@ -1,4 +1,5 @@
-package com.kunal;
+package stack_and_queue;
+
 
 public class CircularQueue {
     protected int[] data;
@@ -67,3 +68,4 @@ public class CircularQueue {
     }
 
 }
+

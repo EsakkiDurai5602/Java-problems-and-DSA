@@ -1,6 +1,7 @@
-package com.kunal.singleton;
+package oop_java.singleton;
 
-import com.kunal.access.A;
+
+import oop_java.access.A;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,5 @@
-package com.kunal;
+package stack_and_queue;
+
 
 public class CustomStack {
     protected int[] data;
@@ -49,3 +50,5 @@ public class CustomStack {
         return ptr == -1;
     }
 }
+
+

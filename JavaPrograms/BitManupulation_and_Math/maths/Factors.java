@@ -1,4 +1,5 @@
-package com.kunal.maths;
+package BitManupulation_and_Math.maths;
+
 
 import java.util.ArrayList;
 

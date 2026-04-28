@@ -1,4 +1,5 @@
-package com.kunal.strings;
+package Recursion.strings;
+
 
 public class Stream {
     public static void main(String[] args) {
@@ -55,3 +56,5 @@ public class Stream {
         }
     }
 }
+
+

@@ -1,6 +1,6 @@
-package com.kunal;
+package programs;
 
-public class Reverse {
+public class reverse {
     public static void main(String[] args) {
         int num = 123456;
 
@@ -16,3 +16,4 @@ public class Reverse {
         System.out.println(ans);
     }
 }
+

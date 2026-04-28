@@ -1,6 +1,7 @@
-package com.kunal.singleton;
+package oop_java.singleton;
 
-import com.kunal.access.A;
+
+import oop_java.access.A;
 
 public class Singleton {
     private Singleton () {
@@ -19,3 +20,4 @@ public class Singleton {
     }
 
 }
+

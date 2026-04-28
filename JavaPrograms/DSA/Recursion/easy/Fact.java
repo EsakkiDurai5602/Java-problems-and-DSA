@@ -1,4 +1,5 @@
-package com.kunal.easy;
+package Recursion.easy;
+
 
 public class Fact {
     public static void main(String[] args) {
@@ -14,3 +15,4 @@ public class Fact {
         return n * fact(n-1);
     }
 }
+

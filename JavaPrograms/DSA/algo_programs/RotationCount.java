@@ -1,4 +1,5 @@
-package com.kunal;
+package algo_programs;
+
 
 public class RotationCount {
     public static void main(String[] args) {
@@ -73,3 +74,4 @@ public class RotationCount {
         return -1;
     }
 }
+

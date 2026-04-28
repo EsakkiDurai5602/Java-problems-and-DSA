@@ -1,4 +1,4 @@
-package com.kunal;
+package Arrays;
 
 import java.util.Arrays;
 
@@ -27,3 +27,4 @@ public class Swap {
         arr[index2] = temp;
     }
 }
+

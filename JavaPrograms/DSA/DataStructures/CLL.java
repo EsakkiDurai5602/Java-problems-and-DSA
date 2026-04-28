@@ -1,4 +1,5 @@
-package com.kunal;
+package DataStructures;
+
 
 public class CLL {
 
@@ -74,3 +75,4 @@ public class CLL {
         }
     }
 }
+

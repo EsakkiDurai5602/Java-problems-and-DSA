@@ -1,4 +1,5 @@
-package com.kunal.sorting;
+package Recursion.sorting;
+
 
 import java.util.Arrays;
 
@@ -44,3 +45,5 @@ public class QuickSort {
         sort(nums, s, hi);
     }
 }
+
+

@@ -1,4 +1,5 @@
-package com.kunal.intro;
+package Recursion.intro;
+
 
 public class BS {
     public static void main(String[] args) {
@@ -21,3 +22,4 @@ public class BS {
         return search(arr, target, m + 1, e);
     }
 }
+
